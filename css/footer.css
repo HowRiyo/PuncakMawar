@@ -4,7 +4,7 @@ footer {
     padding-block: 2em;
 
     font-family: var(--font-1);
-    color: rgb(var(--light-2));
+    color: rgb(var(--dark-2));
 }
 
 
@@ -34,7 +34,7 @@ footer > * {
 
 
 .footer-Body {
-    width: 380px;
+    width: 350px;
 
     background-color: rgb(var(--light-1));
     border-radius: 80% 60% 80% 60% / 60% 60% 80% 100%;
