@@ -1,0 +1,169 @@
+.section-2 {
+    background-color: rgb(var(--fixed-2));
+
+    padding-top: 15vh;
+}
+
+
+
+.section-2-Body {
+    width: var(--width-1);
+
+    margin: 0 auto;
+    padding: 1em;
+}
+
+
+.TrendHead {
+    background-color: rgb(var(--light-2));
+    border-radius: 20px 20px 0 0;
+
+    padding: 1.5em 1.75em;
+}
+
+
+
+.section-2 .TrendHead {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+
+.section-2 .TrendHead h2 {
+    font-size: 1.1rem;
+    font-weight: 900;
+    font-family: var(--font-3);
+    color: rgb(var(--dark-1));
+    letter-spacing: 0.5pt
+}
+
+
+.section-2 .TrendBody {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(30vh, max(25vh, 25vw)), 1fr));
+    gap: 2em 1.5em;
+    
+    width: 100%;
+
+    background-color: rgb(var(--light-2));
+    border-radius: 0 30px 30px 30px;
+
+    
+    padding: 1.5em;
+}
+
+
+.section-2 .TrendCard {
+    border-radius: 25px;
+
+    color: rgb(var(--dark-1));
+    
+    padding: 1em;
+
+    transition: background 0.15s ease-in-out;
+}
+.section-2 .TrendCard:hover {
+    background-color: rgb(var(--fixed-1));
+
+    color: rgb(var(--light-2));
+}
+
+
+.section-2 .TrendCard > .Text {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 1em;
+
+    font-family: var(--font-2);
+}
+
+
+.section-2 .TrendCard h1 {
+    padding-inline: 0.4em 0.6em;
+}
+
+
+.section-2 .Info-1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-family: var(--font-1);
+}
+
+
+.section-2 .SubContent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 1em;
+}
+
+
+.section-2 .Info-2 {
+    font-family: var(--font-1);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.section-2 .Info-3 {
+    border-radius: 15px;
+    background-color: rgb(var(--green));
+
+    font-family: var(--font-2);
+    font-weight: 700;
+
+    padding: 0.35em 0.8em;
+
+    color: rgb(var(--light-1))
+}
+
+
+.section-2 [class |= "Info"] {
+    padding-block: 10px;
+}
+
+
+.section-2 .TrendCard > img {
+    width: 100%;
+
+    border-radius: 20px; 
+    margin-block: 1.25em; 
+    outline: 3px solid white;
+}
+
+
+.section-2 .TrendCard:last-child {
+    display: grid;
+    place-items: center;
+
+    padding-block-end: 2em;
+}
+
+
+.section-2 .TrendCard:last-child .Text {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.section-2 i {
+    color: rgb(var(--dark-2));
+}
+
+
+@media (min-width: 700px) {
+    .section-2 .TrendHead {
+        width: max-content;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .section-2 .TrendHead {
+        width: min-content;
+    }
+}

@@ -1,0 +1,152 @@
+header {
+    position: sticky;
+    top: 0;
+
+    z-index: 9;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgba(var(--light-1), 0.5);
+    backdrop-filter: blur(10px);
+    
+    padding-block: calc(0.5em + 1.5vh);
+
+    outline: 4px solid rgba(var(--dark-1), 0.5);
+
+    box-shadow: 0 10px 15px rgb(var(--dark-1), 0.5);
+}
+
+
+.Logo {
+    display: flex;
+    align-items: center;
+
+    width: min-content;
+
+    font-family: var(--font-1);
+
+    color: rgb(var(--dark-2));
+}
+
+
+
+
+nav {
+    position: relative;
+    
+    font-family: var(--font-2);
+}
+
+
+
+nav div {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    text-align: center;
+    
+    transform: translateX(-50%);
+
+    
+}
+
+
+nav div h4 {
+    color: rgb(var(--dark-1));
+    
+    font-weight: 600;
+}
+
+
+nav div > i {
+    color: rgb(var(--dark-1));
+}
+
+
+nav li {
+    list-style: none;
+
+    text-align: center;
+
+    padding: 0.5em;
+
+    margin-inline: 0.5em;
+}
+
+
+nav ol:first-child li:last-child {
+    width: min-content;
+
+    background-color: rgba(var(--dark-2), 0.1);
+    border-radius: 16px;
+
+    margin: 0 auto;
+    padding-inline: 0.75em;
+}
+
+
+nav ol:first-child li:last-child a {
+    font-weight: 600;
+}
+
+
+nav a {
+    color: rgb(var(--dark-1));
+}
+
+
+header i.fa-language {
+    color: rgb(var(--dark-2));
+}
+
+
+
+@media (min-width: 900px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    nav ol {
+        display: flex;
+        align-items: center;
+
+        margin-inline: 1em;
+    }
+    nav ol {
+        display: flex;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+
+        row-gap: 1em;
+    }
+    nav {
+        display: flex;
+
+        width: max-content;
+        
+        padding-top: 2em;
+    }
+    nav ol {
+        display: block;
+    
+        margin-inline: 0;
+        margin-block: 0.2em
+    }
+    nav ol li {
+        display: none;
+    }
+    nav li {
+        margin: 0;
+    }
+}

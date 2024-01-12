@@ -1,0 +1,35 @@
+:root {
+    --dark-1: 50, 50, 50;
+    --dark-2: 100, 100, 110;
+    --light-1: 241, 246, 249;
+    --light-2: 216, 217, 218;
+    --fixed-1: 115, 96, 223;
+    --fixed-2: 110, 110, 220;
+    --fixed-3: 146, 79, 255;
+    --green: 50, 200, 50;
+    --border-light: rgba(104, 104, 104, 0.1);
+    --font-1: 'Rubik', sans-serif;
+    --font-2: 'Assistant', sans-serif;
+    --font-3: 'Red Hat Display', sans-serif;
+
+    --width-1: calc(100% - 20vw);
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    
+    text-decoration: none;
+
+    /* outline: 2px solid red; */
+}
+
+
+i {
+    height: min-content;
+}
