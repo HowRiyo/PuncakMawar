@@ -5,9 +5,10 @@ window.addEventListener("DOMContentLoaded", () => {
             <h2>Designed by <span style="color: rgb(var(--fixed-3))">@Riyo</span></h2>
             <h3>Special Thx To Contributor</h3>
             <p>
-                Alvin Christian. <br>
+                Alvin Kristian. <br>
                 Dimas Maulana. <br>
-                I Putu Gede Angga Surya Pradita.
+                I Putu Gede Angga Surya Pradita. <br>
+                Rifki Kurniawan.
             </p>
         </div>
     `
