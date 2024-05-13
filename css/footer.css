@@ -34,10 +34,9 @@ footer > * {
 
 
 .footer-Body {
-    width: 350px;
+    width: 100%;
 
     background-color: rgb(var(--light-1));
-    border-radius: 80% 60% 80% 60% / 60% 60% 80% 100%;
 
     padding: 3em;
     margin: 0 auto;
